@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel = "icon" href = "E:\rudy python practice\assets\img\download.png" type = "image/x-icon">
+        <title>Rudra's Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header" id="dark-mode">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#home" class="nav__logo">Rudra R Dave</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#Fav" class="nav__link">Favourites</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a class="nav__link" id="darkmode" onclick="myFunction()">Dark mode</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Rudra</span><br> software Developer</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.instagram.com/_rudradave1821_/" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/rudra.jpeg" alt="" class="home__img">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/mama.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Rudra R Dave</h2>
+                        <p class="about__text">Hey There!<br><br> First of all thanks for visiting my personal site  .<br>
+                            It gives me immense pleasure to introduce myself to you.This is Rudra Dave hailing form Mumbai, India  .<br>
+                            Software Development has fascinated me from my childhood, and being a developer was my dream  . Currently being a 1st Year bachelor's student, majoring in Information Technlogy 
+                            from <strong>kes shroff college</strong> which comes under University of Mumbai, I am thus working towards achieving this dream  .<br>
+                            I am a certified front-end web developer and a Rookie Software developer, having advanced level proficiency in <strong> HTML5, CSS3, JavaScript.</strong> 
+                            A decent level of proficiency in Software developing languages like <strong>C , C++ , Python.</strong><br>
+                            To Know more about my Skills and projects do vist my skills and projects section .<br><br>
+                           To locate my college <a href="mapping.html" alt="map" title="map">click here</a> .</span></p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text"></p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Web Development</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">C,C++</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>              
+                        <img src="assets/img/WhatsApp-Image-2018-09-26-at-5.08.11-PM.jpeg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href="calc.html"><img src="assets/img/icon-256x256.png" alt="personal site 1" title="calculator"></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="login.html"><img src="assets/img/download (2).png" alt="login" title="Login form"></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="signup.html"><img src="assets/img/download (1).png" alt="Sign up" title="Sign up form"></a>
+                    </div>
+                </div>
+            </section>
+            <!--Favorites--->
+            <section class="work section" id="Fav">
+                <h2 class="section-title">Favourites</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="E:\rudy python practice\assets\img\download.jpg" alt="">  
+                        <audio controls autoplay muted>
+                            <source src="E:\rudy python practice\assets\music\Dj Rock Dandiya-2__Gujarati Nonstop Garba 2015__Aishwarya Majmudar ( 256kbps cbr ).mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                      </audio>
+                    </div>&nbsp;
+                    <div class="work__img">
+                        <video width="320" height="240" poster="E:\rudy python practice\assets\img\download (3).png" controls>
+                            <source src="E:\rudy python practice\assets\video\WhatsApp Video 2021-04-04 at 23.23.43.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                         </video>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" placeholder="Messages/Suggestions" cols="0" rows="10" class="contact__input"></textarea>
+                        <a href="mailto:yrd2681@gmail.com" target="_self" title="Contact Mail"><input type="button" value="Submit" class="contact__button button"></a>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Rudra R Dave</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/roodra.dev.3/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/_rudradave1821_/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <p>&#169; 2021 copyright all rights reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+        </script>
+    </body>
+</html>
